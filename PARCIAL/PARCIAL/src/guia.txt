@@ -1,0 +1,52 @@
+En el sistema de vehículos, voy a crear los archivos primero para tener mejor manejo de la info.
+src:
+
+Vehiculo.java
+Carro.java
+CarroElectrico.java
+Moto.java
+Main.java
+--------------------------------------------------------------------------------------------------
+Creación de vehículo, primero los atributos privados aplicando principios de encapsulamiento:
+private String marca;
+private String modelo;
+private int ano;
+private double velocidadActual;
+
+Luego voy a realizar el constructor, que tome los 3 primeros atributos y los use como parámetros
+marca, modelo y año
+
+Luego voy a crear los getters de marca,modelo y anño
+
+Luego voy a crear el set de velocidad actual, tomando como parametro velocidad actual
+
+Luego voy a crear acelerar sin parámetros y acelerar con parámetros como principio de la sobrecarga
+(poliformismo estático)
+
+Luego calculo consumo retornando el double
+
+Luego voy a calcular frenar, método que va a tomar la velocidad y setearla en 0
+
+Finalmente mostrarInfo() para mostrar un resumen de toda la información existente
+
+--------------------------------------------------------------------------------------------------
+Creación de carro: 
+Primero establezco ambos atributos como privados basandome en el principio de encapsulamiento
+
+Luego hay que crear el constructor de carro, aquí se utiliza super tal cual lo dice el ejercicio que
+traiga los 3 primeros parametros de la clase vehículo y luego se agregan los atributos faltantes fuera
+de super
+
+Ahora voy a realizar los getters de cilindraje y tipo de combustible
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+Creación de vehículo eléctrico:
